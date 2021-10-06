@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="stylesheets/core.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.typekit.net/hjs0lxf.css">
+    </head>
+    <body>
+        <nav>
+            <div class="nav-border-bg">
+                <div class="nav-bar">
+                    <h1 class="open-menu hide" onclick="openNav()">&#9776;</h1>
+                    <img class="nav-logo" src="/HTML_CSS_JS/assets/Steve Logo More Shadow.svg" alt="Steve Ucho">
+                </div>
+            </div>
+            
+        </nav>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="pill-bar active-pill">
+                <a href="#"><h2>About Me</h2></a>
+            </div>
+            <div class="pill-bar">
+                <a href="#"><h2>Portfolio</h2></a>
+            </div>
+            <div class="pill-bar">
+                <a href="#"><h2>Gallery</h2></a>
+            </div>
+            <div class="pill-button steve-yellow-bg">
+                <a href="#"><h2>Contact</h2></a>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3 show rest-body side-parent">
+                    <div class="side-body-nav">
+                        <div class="pill-bar active-pill">
+                            <a href="#"><h2>About Me</h2></a>
+                        </div>
+                        <div class="pill-bar">
+                            <a href="#"><h2>Portfolio</h2></a>
+                        </div>
+                        <div class="pill-bar">
+                            <a href="#"><h2>Gallery</h2></a>
+                        </div>
+                        <div class="pill-button steve-yellow-bg pill-button-body">
+                            <a href="#"><h2>Contact</h2></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-9 rest-body" style="border-left: 5px dashed aquamarine;">
+                    <div class="container main-body">
+                        <h1 class="display-1"><strong>Who Am I?</strong></h1>
+                        <p>Hello, my name is... Steve Ucho</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</html>
