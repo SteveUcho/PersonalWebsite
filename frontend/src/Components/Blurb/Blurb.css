@@ -1,0 +1,40 @@
+.blurb {
+    padding: 50px 0 50px 0;
+    color: white
+}
+
+.left-side {
+    text-align: right;
+}
+
+.title-head {
+    width: 50%;
+    position: relative;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%);
+    padding-bottom: 20px;
+}
+
+.title-head h1 {
+    font-size: 4.3vw;
+}
+
+@media screen and (max-width: 767px) {
+    .title-head {
+        position:initial;
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        transform: none;
+    }
+
+    .title-head h1 {
+        font-size: xx-large;
+    }
+  }
+
+.crop {
+    width: 60%;
+    margin: auto;
+}

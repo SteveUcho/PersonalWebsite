@@ -1,0 +1,15 @@
+.photo-col {
+    padding: 15px 0 15px 0;
+}
+
+.see-more {
+    text-align: center;
+}
+
+.see-more a {
+    text-decoration: none;
+}
+
+.see-more h5 {
+    margin: 0;
+}

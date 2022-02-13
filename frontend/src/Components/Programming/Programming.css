@@ -1,0 +1,15 @@
+.programming .photo-card {
+    max-height: 270px;
+}
+
+.era-text {
+    padding-top: 20px;
+}
+
+.era-text h5 {
+    text-decoration: underline;
+}
+
+.clickable {
+    cursor: pointer;
+}

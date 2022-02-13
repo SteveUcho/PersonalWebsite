@@ -1,0 +1,55 @@
+.App p {
+  text-indent: 20px;
+}
+
+.plain-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.plain-links a:hover {
+  color: #FD971F;
+}
+
+.big-section {
+  padding: 50px 0 50px 0;
+}
+
+.monokai-red {
+  color: #F92672;
+}
+
+.monokai-green {
+  color: #A6E22E;
+}
+
+.monokai-orange {
+  color: #FD971F;
+}
+
+.monokai-cream-bg {
+  background-color: #F8F8F2;
+}
+
+.monokai-green-bg {
+  background-color: #A6E22E;
+}
+
+.monokai-black-bg {
+  background-color: #272822;
+  color: white;
+}
+
+.monokai-red-bg {
+  background-color: #F92672;
+  color: white;
+}
+
+.monokai-orange-bg {
+  background-color: #FD971F;
+}
+
+.plain-lists ul {
+  list-style-type: none;
+  padding: 0;
+}
