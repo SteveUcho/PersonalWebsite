@@ -7,6 +7,7 @@ function AboutMe() {
             <Container>
                 <Row>
                     <h1><strong>About Me</strong></h1>
+                    <h5 className="pb-2">Nice to Meet You!</h5>
                     <Col>
                         <ul>
                             <li><strong className="monokai-green">Education:</strong> New York University, Graduated 2021</li>

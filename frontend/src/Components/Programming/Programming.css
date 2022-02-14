@@ -1,7 +1,3 @@
-.programming .photo-card {
-    max-height: 270px;
-}
-
 .era-text {
     padding-top: 20px;
 }
@@ -12,4 +8,41 @@
 
 .clickable {
     cursor: pointer;
+}
+
+.all-tabs{
+    border-radius: 10px 10px 0 0;
+    border-bottom: none;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.472);
+}
+.programming .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color: #75715E !important;
+    border-color: #75715E !important;
+    color: white !important;
+    border-radius: 10px 10px 0 0;
+}
+
+.programming .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link {
+    color: white !important;
+}
+
+.programming .nav-tabs {
+    border-bottom: 1px solid #75715E;
+}
+
+.programming .nav-tabs .nav-link:hover {
+    background-color: #575446 !important;
+    border-color: #575446 !important;
+    border-radius: 10px 10px 0 0;
+}
+
+.programming .nav-tabs .nav-link:focus {
+    border-color: #575446 !important;
+    border-radius: 10px 10px 0 0;
+}
+
+.some-tab {
+    padding: 15px 0 15px 0;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.472);
 }

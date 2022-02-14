@@ -14,11 +14,15 @@ function InstagramFeed() {
         <div id="photography" className="monokai-cream-bg big-section">
             <Container>
                 <h1><strong>Photography</strong></h1>
+                <h5 className="pb-2">Mainly a Hobby</h5>
                 <Row>
                     <Col md={6}>
                         <p className="about-me-blurb">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </p>
+                        <div className="see-more">
+                            <a href="/photography"><h5>More Photos</h5></a>
+                        </div>
                     </Col>
                     <Col>
                         <Row>
@@ -27,9 +31,6 @@ function InstagramFeed() {
                     </Col>
                 </Row>
             </Container>
-            <div className="see-more">
-                <a href="/photography"><h5>More Photos</h5></a>
-            </div>
         </div>
     )
 }
