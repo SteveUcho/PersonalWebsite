@@ -17,11 +17,15 @@ function AboutMe() {
                     <Col>
                         <ul>
                             <li><strong className="monokai-green">Interests:</strong> Photography, Architecture, Design, Video Games</li>
+                            <li><strong className="monokai-green">GitHub: </strong><a href="https://www.linkedin.com/in/steveucho/">linkedin.com/in/SteveUcho/</a></li>
+                            <li><strong className="monokai-green">Instagram: </strong><a href="https://www.instagram.com/s.teve.u/">instagram.com/s.teve.u/</a></li>
+                            <li><strong className="monokai-green">Twitter: </strong><a href="https://twitter.com/SteveUcho">twitter.com/SteveUcho</a></li>
                         </ul>
                     </Col>
                 </Row>
                 <p className="about-me-blurb">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Although I like to say I was born and raised in New York City, "raised" is only partially true. 
+                    From the ages of 3 to 6 years old, I lived in and grew up in a rural part of Ecuador where I enjoyed activities like picking fresh blackberries and jumping into the river down the hill with my cousins. 
                 </p>
             </Container>
         </div>
