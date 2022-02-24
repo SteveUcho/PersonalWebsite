@@ -16,7 +16,7 @@ function Blurb() {
                     </Col>
                     <Col md={6} className="right-side">
                         <div className="crop">
-                            <PhotoCard backgroundImage="/images/profilePic.jpg"/>
+                            <PhotoCard backgroundImage="/images/profilePic2.jpg"/>
                         </div>
                     </Col>
                 </Row>
