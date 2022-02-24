@@ -4,7 +4,7 @@ import './PhotoFeed.css';
 
 function InstagramFeed() {
     const photoPathPrefix = "/images/photography/"
-    const photoNames = ["1.JPG", "2.JPG", "3.JPG", "4.JPG"]
+    const photoNames = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"]
     const photoCards = photoNames.map((photo) =>
         <Col xs={6} lg={4} className="photo-col">
             <PhotoCard backgroundImage={photoPathPrefix+photo}></PhotoCard>
