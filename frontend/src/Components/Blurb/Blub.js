@@ -10,7 +10,7 @@ function Blurb() {
                 <Row>
                     <Col md={6} className="left-side">
                         <div className="title-head">
-                            <h1> My name is, what </h1>
+                            <h1> My name is, </h1>
                             <h1 className="monokai-red"><strong>Steve</strong></h1>
                         </div>
                     </Col>
