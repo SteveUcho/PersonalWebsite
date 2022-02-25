@@ -1,4 +1,5 @@
 import './App.css';
+import TextData from './content.json';
 import NavBar from './Components/NavBar/NavBar';
 import Blurb from './Components/Blurb/Blub'
 import PhotoFeed from './Components/PhotoFeed/PhotoFeed';
@@ -13,11 +14,11 @@ function App() {
     <div className="App">
       <NavBar/>
       <Blurb/>
-      <AboutMe/>
-      <AboutThis/>
-      <Programming/>
-      <PhotoFeed/>
-      <ArchAndDes/>
+      <AboutMe content={TextData.aboutMe}/>
+      <AboutThis content={TextData.aboutThis}/>
+      <Programming content={TextData.programming}/>
+      <PhotoFeed content={TextData.photography}/>
+      <ArchAndDes content={TextData.archDes}/>
       <Contact/>
       <link
         rel="stylesheet"

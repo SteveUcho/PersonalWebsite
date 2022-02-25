@@ -1,0 +1,91 @@
+{
+    "aboutMe": {
+        "subtitle": "Nicw to Meet You!",
+        "leftList": [
+            ["Education: ", "New York University, Graduated 2021"],
+            ["Majored: ", "B.S. Computer Science"]
+        ],
+        "rightList": [
+            ["Interests: ", "Photography, Architecture, Design, Video Games"]
+        ],
+        "description": "Although I like to say I was born and raised in New York City, \"raised\" is only partially true. From the ages of 3 to 6 years old, I lived in and grew up in a rural part of Ecuador where I enjoyed activities like picking fresh blackberries and jumping into the river down the hill with my cousins."
+    },
+    "aboutThis": {
+        "subtitle": "An Important Note",
+        "description": "This website seeks to tell the story of who I am as a collection of interests and hobbies. This website is a sort of self reflection, and quite frankly the hardest part in the making of this website was the writing. I plan to use this website as a platform to display and put to practice my skills in Front and Back End Developement, and General Software Development. I can't say this site is finished, there's always something I wan't to improve on this site."
+    },
+    "programming": {
+        "subtitle": "A Brief History",
+        "tabs": [
+            {
+                "title": "Past",
+                "eventKey": "past",
+                "subtitle": "How It All Began",
+                "image": "/images/programming/scratch.png",
+                "items": [
+                    {
+                        "headline": "National High School Game Academy",
+                        "description": "I've always enjoyed playing video games, but in the summer of 2016, I actually made a few. At this point in my life, I had tinkered with programming, I was doing an online AP Computer Science course (because my high school didn't have one) and learning from YouTube tutorials. Even though I could have said I knew how to program at this point, I wasn't confident I matched with other people. I took the video game development Pre-College program at Carnegie Mellon University dubbed, National High School Game Academy, everyone just called it NHSGA. I was not surprised to find out that I was behind literary everyone else, not just in programming, but also 3D modeling and animation, and sound design. My greatest memories from this time period, were those in which I was up until 3am trying to figure what I was being taught because it was all new to me. I mostly wrote Unity game code in C#."
+                    },
+                    {
+                        "headline": "Science Olympiad - Scratch",
+                        "description": "In the Fall of 2015, my high school started (in mt opinion) the first STEM focused club. Science Olympiad is a multi-disciplinary competition that culminates in a national competition if your high school makes it that far. I was in charge of two events: hover craft and game on (scratch game creation). Admittedly I ranked better in hover craft than game on, ranking in at 19 out of 63. But scratch was my first taste at what programming is, for loops, if statements, functions, etc..."
+                    }
+                ]
+            },
+            {
+                "title": "Present",
+                "eventKey": "present",
+                "subtitle": "Better Programming Era",
+                "image": "/images/programming/python.png",
+                "items": [
+                    {
+                        "headline": "SteveUcho.com",
+                        "description": "In the summer of 2020, I took the time to learn a few things on my own, one of those things was React. I have coded many websites over the years, every time better than the one before it. When I first started, I remember thinking to myself, \"this is too easy\". That was just HTML and CSS, no JavaScript, just plain pictures and styles. As the pages became bigger and the updates became more frequent, I realized there had to be a better way. I started by writing PHP in high school, used template languages at MIDASoft and March for Science NYC, and finally React for this website. Admittedly this isn't a hard site to build, but I'm proud I was able to build this site mostly in 2 days, the writing was a separate endeavor."
+                    },
+                    {
+                        "headline": "Accrete.AI - My First Internship",
+                        "description": "I had an absolute blast. Accrete was no Google or Facebook, but it was pretty much a dream come true. My two greatest goals in life have always been: to work around people I admire, and to work doing what I love. I had the opportunity to work with some of the smartest people I knew at the time. When I started there was no code writing involved, in fact I don't believe there any software engineer interns before me. I started in July of 2017 by reading statements from the Federal Reserve and highlighting key information so that a Machine Learning algorithm can learn from it. My first actually software development work surrounded an application that consolidated a workflow for interns that were doing the highlighting. This project which was almost a year's worth of work was my first dive into building apps, using frameworks like Electron, and improving my understanding of JavaScript in general. After writing more than 3,000+ lines of code in JavaScript, spending many sleepless nights designing the system and then implementing it, I realized this is what I want to do for the rest of my life."
+                    }
+                ]
+            },
+            {
+                "title": "Future",
+                "eventKey": "future",
+                "subtitle": "What the Future Holds",
+                "image": "/images/programming/question.jpg",
+                "items": [
+                    {
+                        "headline": "Honestly, Who Knows",
+                        "description": "My two main goals haven't changed since I decided to major in Computer Science. First, I'd like to work as a software developer to some capacity. Second, I'm hoping that whatever I work on makes an impact on people."
+                    }
+                ]
+            }
+        ]
+    },
+    "photography": {
+        "subtitle": "Mainly a Hobby",
+        "description": "Prior 2021, I mainly only took pictures with my phone #shotoniphone. Last year (Fall of 2021) I got a Sony a7C and I took over 1000+ photos on my trip to the West coast. I'll posting the full resolution photos on this site because Instagram does not do the photos justice. Fun fact that I learned when I was looking over my photos, I subconsciously really like the color blue. Although if you ask me what my favorite color is I'd probably say \"I don't know\" or \"it depends\", because it's true.",
+        "photoList": [
+            "/images/photography/5.jpg",
+            "/images/photography/6.jpg",
+            "/images/photography/7.jpg",
+            "/images/photography/8.jpg",
+            "/images/photography/9.jpg",
+            "/images/photography/10.jpg"
+        ]
+    },
+    "archDes": {
+        "subtitle": "A Surprising Thing I Enjoy",
+        "description": "Before I had ever even heard about computer science or even programming, I always enjoyed architecture and design. For the longest time I wanted to be an Architect, that is until I realized I wasn't very creative artistically. But I still enjoy perusing architectural magazine and keeping up to date with what the starchitects are up to. Three of my favorite architects are Zaha Hadid Architects, Bjarke Ingels Group, and VTN Architects.",
+        "description2": "In the summer of 2019, I decided to try and see if there was a path for me between the lines of an architecture and computer science. So, I enrolled in summer classes at Cornell University for Introduction to Architecture. My main take away from that summer was \"Architecture is so much more amazing than what I thought it would be\". I got to get hands on with architectural thinking and learning and modeling and all the good stuff. I really enjoyed stimulating a part of my brain that I hadn't done much with.",
+        "photoList": [
+            "/images/arch-des/1.jpg",
+            "/images/arch-des/2.jpg",
+            "/images/arch-des/3.jpg",
+            "/images/arch-des/4.jpg",
+            "/images/arch-des/5.jpg",
+            "/images/arch-des/6.jpg"
+        ]
+    }
+}

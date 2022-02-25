@@ -2,31 +2,25 @@ import { Col, Container, Row } from "react-bootstrap";
 import PhotoCard from "../PhotoCard/PhotoCard";
 import './PhotoFeed.css';
 
-function InstagramFeed() {
-    const photoPathPrefix = "/images/photography/"
-    const photoNames = ["7.jpg", "8.jpg", "9.jpg", "10.jpg", "5.jpg", "6.jpg"]
-    const photoCards = photoNames.map((photo) =>
+function InstagramFeed(props) {
+    const photoCards = props.content.photoList.map((photo) =>
         <Col xs={6} lg={4} className="photo-col">
-            <PhotoCard backgroundImage={photoPathPrefix+photo}></PhotoCard>
+            <PhotoCard backgroundImage={photo}></PhotoCard>
         </Col>
     );
     return (
         <div id="photography" className="monokai-cream-bg big-section">
             <Container>
                 <h1><strong>Photography</strong></h1>
-                <h5 className="pb-2">Mainly a Hobby</h5>
+                <h5 className="pb-2">{props.content.subtitle}</h5>
                 <Row>
                     <Col md={6}>
                         <p className="photography-blurb">
-                            Before 2021, I mainly only took pictures with my phone #shotoniphone.
-                            Last year (Fall of 2021) I got a Sony a7C and I took over 1000+ photos on my trip to the West coast.
-                            I'll posting the full resolution photos on this site because Instagram does not do the photos justice.
-                            Fun fact that I learned when I was looking over my photos, I subconsciously  really like the color blue.
-                            Although  if you ask me what my favorite color is I'd probably say "I don't know" or "it depends", because it's true.
+                            {props.content.description}
                         </p>
-                        <div className="see-more">
+                        {/* <div className="see-more">
                             <a href="/photography"><h5>More Photos</h5></a>
-                        </div>
+                        </div> */}
                     </Col>
                     <Col>
                         <Row>
