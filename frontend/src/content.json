@@ -1,4 +1,9 @@
 {
+    "blurb": {
+        "image": "https://personalwebsite-images-main.s3.us-east-2.amazonaws.com/home-page/20220125-DSC01861-2.jpg",
+        "firstLine": " My name is, ",
+        "secondLine":"Steve"
+    },
     "aboutMe": {
         "subtitle": "Nicw to Meet You!",
         "leftList": [
@@ -21,7 +26,7 @@
                 "title": "Past",
                 "eventKey": "past",
                 "subtitle": "How It All Began",
-                "image": "/images/programming/scratch.png",
+                "image": "https://personalwebsite-images-main.s3.us-east-2.amazonaws.com/home-page/programming/scratch.png",
                 "items": [
                     {
                         "headline": "National High School Game Academy",
@@ -37,7 +42,7 @@
                 "title": "Present",
                 "eventKey": "present",
                 "subtitle": "Better Programming Era",
-                "image": "/images/programming/python.png",
+                "image": "https://personalwebsite-images-main.s3.us-east-2.amazonaws.com/home-page/programming/python.png",
                 "items": [
                     {
                         "headline": "SteveUcho.com",
@@ -53,7 +58,7 @@
                 "title": "Future",
                 "eventKey": "future",
                 "subtitle": "What the Future Holds",
-                "image": "/images/programming/question.jpg",
+                "image": "https://personalwebsite-images-main.s3.us-east-2.amazonaws.com/home-page/programming/question.jpg",
                 "items": [
                     {
                         "headline": "Honestly, Who Knows",
@@ -67,12 +72,12 @@
         "subtitle": "Mainly a Hobby",
         "description": "Prior 2021, I mainly only took pictures with my phone #shotoniphone. Last year (Fall of 2021) I got a Sony a7C and I took over 1000+ photos on my trip to the West coast. I'll posting the full resolution photos on this site because Instagram does not do the photos justice. Fun fact that I learned when I was looking over my photos, I subconsciously really like the color blue. Although if you ask me what my favorite color is I'd probably say \"I don't know\" or \"it depends\", because it's true.",
         "photoList": [
-            "/images/photography/5.jpg",
-            "/images/photography/6.jpg",
-            "/images/photography/7.jpg",
-            "/images/photography/8.jpg",
-            "/images/photography/9.jpg",
-            "/images/photography/10.jpg"
+            "https://personalwebsite-images-main.s3.us-east-2.amazonaws.com/home-page/photography/20220112-DSC00501-2.jpg",
+            "https://personalwebsite-images-main.s3.us-east-2.amazonaws.com/home-page/photography/20220113-DSC00623.jpg",
+            "https://personalwebsite-images-main.s3.us-east-2.amazonaws.com/home-page/photography/20220113-DSC00624-2.jpg",
+            "https://personalwebsite-images-main.s3.us-east-2.amazonaws.com/home-page/photography/20220113-DSC00652-2.jpg",
+            "https://personalwebsite-images-main.s3.us-east-2.amazonaws.com/home-page/photography/20220122-DSC01606-2.jpg",
+            "https://personalwebsite-images-main.s3.us-east-2.amazonaws.com/home-page/photography/20220125-DSC01778.jpg"
         ]
     },
     "archDes": {
@@ -80,12 +85,18 @@
         "description": "Before I had ever even heard about computer science or even programming, I always enjoyed architecture and design. For the longest time I wanted to be an Architect, that is until I realized I wasn't very creative artistically. But I still enjoy perusing architectural magazine and keeping up to date with what the starchitects are up to. Three of my favorite architects are Zaha Hadid Architects, Bjarke Ingels Group, and VTN Architects.",
         "description2": "In the summer of 2019, I decided to try and see if there was a path for me between the lines of an architecture and computer science. So, I enrolled in summer classes at Cornell University for Introduction to Architecture. My main take away from that summer was \"Architecture is so much more amazing than what I thought it would be\". I got to get hands on with architectural thinking and learning and modeling and all the good stuff. I really enjoyed stimulating a part of my brain that I hadn't done much with.",
         "photoList": [
-            "/images/arch-des/1.jpg",
-            "/images/arch-des/2.jpg",
-            "/images/arch-des/3.jpg",
-            "/images/arch-des/4.jpg",
-            "/images/arch-des/5.jpg",
-            "/images/arch-des/6.jpg"
+            "https://personalwebsite-images-main.s3.us-east-2.amazonaws.com/home-page/arch-des/20190801-6.jpg",
+            "https://personalwebsite-images-main.s3.us-east-2.amazonaws.com/home-page/arch-des/20190803-5.jpg",
+            "https://personalwebsite-images-main.s3.us-east-2.amazonaws.com/home-page/arch-des/20190805-1-2.jpg",
+            "https://personalwebsite-images-main.s3.us-east-2.amazonaws.com/home-page/arch-des/20190805-2.jpg",
+            "https://personalwebsite-images-main.s3.us-east-2.amazonaws.com/home-page/arch-des/20190805-3-2.jpg",
+            "https://personalwebsite-images-main.s3.us-east-2.amazonaws.com/home-page/arch-des/20190805-4.jpg"
         ]
+    },
+    "contact": {
+        "phone": " +1 (917) 628-4514",
+        "email": " contact@steveucho.com",
+        "linkedIn": " linkedin.com/in/steveucho/",
+        "github": " github.com/SteveUcho"
     }
 }

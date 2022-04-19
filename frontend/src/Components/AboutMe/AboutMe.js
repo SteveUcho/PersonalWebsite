@@ -24,7 +24,7 @@ function AboutMe(props) {
                         <ul>
                             {rightList}
                             <li><strong className="monokai-green">GitHub: </strong><a href="https://www.linkedin.com/in/steveucho/">linkedin.com/in/SteveUcho/</a></li>
-                            <li><strong className="monokai-green">Instagram: </strong><a href="https://www.instagram.com/s.teve.u/">instagram.com/s.teve.u/</a></li>
+                            <li><strong className="monokai-green">Instagram: </strong><a href="https://www.instagram.com/steveucho/">instagram.com/steveucho/</a></li>
                             <li><strong className="monokai-green">Twitter: </strong><a href="https://twitter.com/SteveUcho">twitter.com/SteveUcho</a></li>
                         </ul>
                     </Col>
