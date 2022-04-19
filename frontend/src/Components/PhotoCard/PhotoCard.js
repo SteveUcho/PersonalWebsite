@@ -7,7 +7,7 @@ function PhotoCard(props) {
     
     return (
         <>
-        <div className="photo-card" style={{backgroundImage: "url("+props.backgroundImage+")"}} onClick={() => setShow(true)}/>
+        <div className="photo-card clickable" style={{backgroundImage: "url("+props.backgroundImage+")"}} onClick={() => setShow(true)}/>
         <Modal
             show={show}
             size="lg"

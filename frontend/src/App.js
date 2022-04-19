@@ -13,13 +13,13 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
-      <Blurb/>
+      <Blurb content={TextData.blurb} />
       <AboutMe content={TextData.aboutMe}/>
       <AboutThis content={TextData.aboutThis}/>
       <Programming content={TextData.programming}/>
       <PhotoFeed content={TextData.photography}/>
       <ArchAndDes content={TextData.archDes}/>
-      <Contact/>
+      <Contact content={TextData.contact}/>
       <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"

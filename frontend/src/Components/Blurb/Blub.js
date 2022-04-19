@@ -3,20 +3,20 @@ import PhotoCard from "../PhotoCard/PhotoCard";
 
 import './Blurb.css';
 
-function Blurb() {
+function Blurb(props) {
     return (
         <div className="blurb monokai-black-bg">
             <Container fluid>
                 <Row>
                     <Col md={6} className="left-side">
                         <div className="title-head">
-                            <h1> My name is, </h1>
-                            <h1 className="monokai-red"><strong>Steve</strong></h1>
+                            <h1>{props.content.firstLine}</h1>
+                            <h1 className="monokai-red"><strong>{props.content.secondLine}</strong></h1>
                         </div>
                     </Col>
                     <Col md={6} className="right-side">
                         <div className="crop">
-                            <PhotoCard backgroundImage="/images/profilePic2.jpg"/>
+                            <PhotoCard backgroundImage={props.content.image}/>
                         </div>
                     </Col>
                 </Row>
